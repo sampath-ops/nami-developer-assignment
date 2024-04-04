@@ -4,7 +4,7 @@ const TaskCard = () => {
     return (
         <div className="grid grid-cols-3 gap-6 mt-8">
             {
-                TaskList.map((val, index) => (
+                TaskList.map((index) => (
                     <div className="grid gap-y-1 border border-[#B8B8B8] rounded-[20px] p-4" key={index}>
                         <div className="flex items-center gap-3">
                             <div className="flex gap-2 items-center bg-[#F7F7F7] p-2 rounded-lg">
