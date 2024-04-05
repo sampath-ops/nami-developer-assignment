@@ -29,16 +29,16 @@ const MobileFooter = () => {
                 </div>
                 {
                     menuOpen && (
-                        <div className=" absolute top-[-265%] right-[14%] bg-white rounded-[16px] shadow-md ">
-                            <li className="p-4 grid grid-cols-[auto,1fr] gap-3 items-center cursor-pointer">
+                        <div className=" absolute top-[-240%] right-[16px] bg-white rounded-[16px] shadow-md ">
+                            <li className="p-3 grid grid-cols-[auto,1fr] gap-3 items-center cursor-pointer">
                                 <img src={Attendance} alt="Attendance" />
                                 <p className="block font-semibold">Attendance</p>
                             </li>
-                            <li className="p-4 grid grid-cols-[auto,1fr] gap-3 items-center cursor-pointer">
+                            <li className="p-3 grid grid-cols-[auto,1fr] gap-3 items-center cursor-pointer">
                                 <img src={Overview} alt="Overview" />
                                 <p className="block font-semibold">Overview</p>
                             </li>
-                            <li className="p-4 grid grid-cols-[auto,1fr] gap-3 items-center cursor-pointer">
+                            <li className="p-3 grid grid-cols-[auto,1fr] gap-3 items-center cursor-pointer">
                                 <img src={Staff} alt="Staff" />
                                 <p className="block font-semibold">Staff</p>
                             </li>
