@@ -13,7 +13,7 @@ const SideNavDesktop = () => {
         setSubMenuOpen(!subMenuOpen);
     };
     return (
-        <div className="w-56">
+        <div className="w-56 hidden md:block">
             <div className='flex gap-3 items-center font-semibold py-3 px-9 cursor-pointer border-b-8 border-[#fff] hover:bg-[#F0F0F0] hover:border-b-8 hover:border-[#CC2610]'>
                 <img src={Home} alt="Home" />
                 <p className='block font-semibold'>Home</p>
@@ -27,15 +27,15 @@ const SideNavDesktop = () => {
             </div>
             {subMenuOpen && (
                 <ul className=' ml-7 grid'>
-                    <li className="p-4 grid grid-cols-[auto,1fr] gap-3 items-center">
+                    <li className="p-4 grid grid-cols-[auto,1fr] gap-3 items-center cursor-pointer">
                         <img src={Attendance} alt="Attendance" />
                         <p className="block font-semibold">Attendance</p>
                     </li>
-                    <li className="p-4 grid grid-cols-[auto,1fr] gap-3 items-center">
+                    <li className="p-4 grid grid-cols-[auto,1fr] gap-3 items-center cursor-pointer">
                         <img src={Overview} alt="Overview" />
                         <p className="block font-semibold">Overview</p>
                     </li>
-                    <li className="p-4 grid grid-cols-[auto,1fr] gap-3 items-center">
+                    <li className="p-4 grid grid-cols-[auto,1fr] gap-3 items-center cursor-pointer">
                         <img src={Staff} alt="Staff" />
                         <p className="block font-semibold">Staff</p>
                     </li>

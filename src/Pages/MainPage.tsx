@@ -1,9 +1,11 @@
+import MobileNav from "../components/MobileNav";
 import MainContainer from "../components/TasksoftheDay/MainContainer";
-import Navbar from "../components/TopNav"
+import DesktopNavBar from "../components/TopNav"
 const MainPage = () => {
     return ( 
         <>
-            <Navbar/>
+            <DesktopNavBar/>
+            <MobileNav/>
             <MainContainer/>
         </>
      );
