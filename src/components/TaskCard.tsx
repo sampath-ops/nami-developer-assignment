@@ -12,7 +12,7 @@ const TaskCard = () => {
                                 <p className="text-[12px] font-bold">Rajesh</p>
                                 <span className=" rounded-full w-2 h-2 bg-[#CC2610]"></span>
                             </div>
-                            <div className="px-1 py-2 text-[#CC2610] border bg-[#F7F7F7] rounded-[20px] text-[12px]">Not Accepted</div>
+                            <div className="px-2 py-1 text-[#CC2610] font-semibold border-0 bg-[#F7F7F7] rounded-[20px] text-[12px]">Not Accepted</div>
                             <div></div>
                             <div></div>
                         </div>
