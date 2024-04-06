@@ -1,5 +1,5 @@
 import Plus from "../assets/Plus.png"
-import Home from "../assets/Home.png"
+import HomeActive from "../assets/Home_Active.png"
 import Console from "../assets/console.png"
 import Attendance from "../assets/Attendance.png"
 import Overview from "../assets/OverView.png"
@@ -19,9 +19,9 @@ const MobileFooter = () => {
                 <div className=" absolute top-[-25px] left-[50%] transform -translate-x-1/2 p-4 bg-[#5F69C7] rounded-full">
                     <img src={Plus} alt="plus" />
                 </div>
-                <div className=" flex flex-col items-center cursor-pointer">
-                    <img src={Home} alt="home" />
-                    <p className="text-[12px]">Home</p>
+                <div className=" flex flex-col gap-y-1  items-center cursor-pointer">
+                    <img src={HomeActive} alt="home" className=" w-6" />
+                    <p className="text-[12px] text-[#5F69C7]">Home</p>
                 </div>
                 <div className="flex flex-col items-center cursor-pointer" onClick={handleToggle}>
                     <img src={Console} alt="console" />

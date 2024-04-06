@@ -14,7 +14,7 @@ const SideNavDesktop = () => {
     };
     return (
         <div className="w-56 hidden md:block">
-            <div className='flex gap-3 items-center font-semibold py-3 px-9 cursor-pointer border-b-8 border-[#fff] hover:bg-[#F0F0F0] hover:border-b-8 hover:border-[#CC2610]'>
+            <div className='flex gap-3 items-center font-semibold py-3 px-9 cursor-pointer border-b-8 border-[#fff] hover:bg-[#F0F0F0] hover:border-b-8 border-[#CC2610]'>
                 <img src={Home} alt="Home" />
                 <p className='block font-semibold'>Home</p>
             </div>
