@@ -69,7 +69,7 @@ const TaskCard: React.FC<TaskCardProps> = ({ task }) => {
                                 }`}>{task.taskStatus}
                             </div>
                         ) :
-                            task.tags.map((tag, index) => (
+                            task.tags.filter(tag => tag !== "Completed").map((tag, index) => (
                                 <div className={`px-1 md:px-2 py-1 font-semibold border-0 rounded-[20px] text-[10px] lg:text-[12px] text-white ${tag === "Delayed" || tag == "Complaint" ? "bg-[#CC2610]" : "bg-[#00A441]"}`} key={index}>{tag}</div>
                             ))
 
