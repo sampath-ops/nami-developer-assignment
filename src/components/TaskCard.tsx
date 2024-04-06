@@ -132,15 +132,15 @@ const TaskCard: React.FC<TaskCardProps> = ({ task }) => {
             {
                 task.taskStatus !== "Ongoing" ? (
                     !task.isCompleted ?
-                    <div className="flex w-full mt-2">
-                        <button className={` py-2 md:py-3 text-[#FFECE2] rounded-full w-full flex items-center justify-center gap-2 ${task.timeRemain < 0 ? "bg-[#CC2610]" : "bg-[#5F69C7]"}`}>
-                            <img src={NotifyStaff} alt="circle-tick" />
-                            <p>Notify Staff</p></button>
-                    </div> :
-                    <div className="flex w-full mt-2">
-                        <button className={` py-2 md:py-3 text-[#5F69C7] rounded-full w-full border border-[#5F69C7]`}>
-                            <p>View Details</p></button>
-                    </div>
+                        <div className="flex w-full mt-2">
+                            <button className={` py-2 md:py-3 text-[#FFECE2] rounded-full w-full flex items-center justify-center gap-2 ${task.timeRemain < 0 ? "bg-[#CC2610]" : "bg-[#5F69C7]"}`}>
+                                <img src={NotifyStaff} alt="circle-tick" />
+                                <p>Notify Staff</p></button>
+                        </div> :
+                        <div className="flex w-full mt-2">
+                            <button className={` py-2 md:py-3 text-[#5F69C7] rounded-full w-full border border-[#5F69C7]`}>
+                                <p>View Details</p></button>
+                        </div>
                 ) : ""
             }
         </div>

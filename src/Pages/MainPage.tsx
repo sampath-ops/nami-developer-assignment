@@ -3,14 +3,14 @@ import MobileNav from "../components/MobileNav";
 import MainContainer from "../components/TasksoftheDay/MainContainer";
 import DesktopNavBar from "../components/TopNav"
 const MainPage = () => {
-    return ( 
+    return (
         <>
-            <DesktopNavBar/>
-            <MobileNav/>
-            <MainContainer/>
-            <MobileFooter/>
+            <DesktopNavBar />
+            <MobileNav />
+            <MainContainer />
+            <MobileFooter />
         </>
-     );
+    );
 }
- 
+
 export default MainPage;
